@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complete Responsive Grocery Website Design Tutorial</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header class="header">
+
+    <a href="#" class="logo"> <i class="fas fa-shopping-basket"></i> groco </a>
+
+    <nav class="navbar">
+        <a href="index.HTML">home</a>
+        <a href="features.html">Features</a>
+        <a href="products.html">Products</a>
+        <a href="categories.html">Categories</a>
+        <a href="review.html">review</a>
+        <a href="blogs.html">About</a>
+    </nav>
+
+    <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <!-- <div class="fas fa-shopping-cart" id="cart-btn"></div> -->
+        <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+        <input type="search" id="search-box" placeholder="search here...">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-1.png" alt="">
+            <div class="content">
+                <h3>watermelon</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-2.png" alt="">
+            <div class="content">
+                <h3>onion</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="box">
+            <i class="fas fa-trash"></i>
+            <img src="image/cart-img-3.png" alt="">
+            <div class="content">
+                <h3>chicken</h3>
+                <span class="price">$4.99/-</span>
+                <span class="quantity">qty : 1</span>
+            </div>
+        </div>
+        <div class="total"> total : $19.69/- </div>
+        <a href="#" class="btn">checkout</a>
+    </div>
+
+    <form action="" class="login-form">
+        <h3>login now</h3>
+        <input type="email" placeholder="your email" class="box">
+        <input type="password" placeholder="your password" class="box">
+        <p>forget your password <a href="#">click here</a></p>
+        <p>don't have an account <a href="#">create now</a></p>
+        <input type="submit" value="login now" class="btn">
+    </form>
+
+</header>
+
+<!-- header section ends -->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>fresh and <span>organic</span> products for your</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam libero nostrum veniam facere tempore nisi.</p>
+        <a href="https://freshorganic.gi/" class="btn">shop now</a>
+    </div>
+
+</section>
+
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> About <span>Hospitals</span> </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="hospital/hospital1.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by hospital </a>
+                    <a href="#"> <i class="fas fa-clock"></i> open 24x7 </a>
+                </div>
+                <h3>FORTIS HOSPITAL</h3>
+                <p>Malviya Nagar, Jaipur</p>
+                <!-- <span class="computer timmimg" data-v-7568d91a>open 24x7</span> -->
+                
+                <a href="details.html" class="btn">Enquiry Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="hospital/manipal.png" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by hospital </a>
+                    <a href="#"> <i class="fas fa-clock"></i> open 24x7  </a>
+                </div>
+                <h3>MANIPAL HOSPITAL</h3>
+                <p>Vidhyadhar Nagar, Jaipur</p>
+                <a href="details.html" class="btn">Enquiry Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="hospital/images (1).jpg" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by hospital </a>
+                    <a href="#"> <i class="fas fa-clock"></i> open 24x7  </a>
+                </div>
+                <h3>CK BIRLA HOSPITAL</h3>
+                <p>Gopalpura, Jaipur</p>
+                <a href="details.html" class="btn">Enquiry Now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="hospital/DlZgrdK5YvJRQ8VxzxEZiD60e52hC5EdwErXRp8N.webp" alt="">
+            <div class="content">
+                <div class="icons">
+                    <a href="#"> <i class="fas fa-user"></i> by hospital</a>
+                    <a href="#"> <i class="fas fa-clock"></i> open 24x7  </a>
+                </div>
+                <h3>APPOLO HOSPITAL</h3>
+                <p>C Scheme, Jaipur</p>
+                <a href="details.html" class="btn">Enquiry Now</a>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>    
